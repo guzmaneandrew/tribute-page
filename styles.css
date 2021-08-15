@@ -1,0 +1,46 @@
+body {
+  font: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  text-align: center;
+  line-height: 1.5; /* unitless numbers better for lineheight */
+}
+
+#main {
+    background-color: #EEEEEE;
+    border-radius: 10px;
+  }
+  
+  #title {
+    font: italic small-caps 700 4rem sans-serif;
+  }
+
+#img-div {
+    background-color: white;
+    padding: 12px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+  #img-caption {
+    font-style: italic;
+  }
+
+  ul {
+    text-align: left;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+
+  li {
+    list-style-position: inside;
+  }
+
+  .year {
+    font-style: small-caps;
+    font-weight: 700;
+  }
+  
